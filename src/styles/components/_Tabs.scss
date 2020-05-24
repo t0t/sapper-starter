@@ -1,0 +1,27 @@
+.Tabs {
+	min-height: $h8;
+    &List {
+		// @include type-setting(3);
+		margin-bottom: $h2;
+		// background-color: red;
+		// height: auto;
+    }
+
+    button {
+		background: none;
+		border: none;
+		border-bottom: $border_width_base solid transparent;
+		border-radius: 0;
+		margin: 0;
+		color: $primary;
+	}
+	
+	.selected {
+		border-bottom: $border_width_base solid $secondary;
+		color: $secondary;
+		&:hover {
+			cursor: default;
+		}
+	}
+    
+}
