@@ -1,3 +1,21 @@
+<script context="module">
+  // export function preload({params, query}) {
+  //   return this.fetch(`blog.json`)
+  //   let posts = res.json()
+
+  // }
+  // export async function preload(page) {
+	// 	const query = page.query
+	// 	const res = await this.fetch(`products.json`)
+
+	// 	let products = await res.json()
+
+	// 	return {products}
+	// }
+</script>
+
+
+
 <script>
   import data from "./blog.json";
   export let posts = data.posts;
