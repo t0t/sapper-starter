@@ -1,6 +1,4 @@
-<script>
-//   export let quote = "";
-</script>
+
 
 <ul class="List">
   <li>

@@ -1,13 +1,24 @@
+<!-- <script context="module">
+	export async function preload(page) {
+		const query = page.query
+		const res = await this.fetch(`products.json`)
+
+		let products = await res.json()
+
+		return {products}
+	}
+</script> -->
+
 <script>
+  import data from "./products.json";
+  export let products = data.products;
+
   import PageTitle from "../../components/PageTitle.svelte";
   import Content from "../../components/layouts/Content.svelte";
   import Blockquote from "../../components/molecules/Blockquote.svelte";
   import Figure from "../../components/molecules/Figure.svelte";
   import CardGroup from "../../components/molecules/CardGroup.svelte";
   import Card from "../../components/molecules/Card.svelte";
-
-  import data from "./products.json";
-  export let products = data.products;
 </script>
 
 <svelte:head>
@@ -41,7 +52,7 @@
     <CardGroup>
       {#each products as product}
         <Card cardtitle={product.title}>
-          <a rel="prefetch" href="products/{product.slug}">
+          <a href="products/{product.slug}">
             <Figure src={product.thumb} alt={product.title} />
           </a>
         </Card>

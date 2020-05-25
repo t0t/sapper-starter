@@ -3,7 +3,7 @@
   export let href;
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "./styles/main.scss";
   button a {
     background-color: $secondary;
@@ -26,7 +26,7 @@
     }
     
   }
-</style>
+</style> -->
 
 <button>
   <a href="{href}">

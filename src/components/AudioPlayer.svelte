@@ -18,19 +18,19 @@
 </script>
 
 <style lang="scss">
-  @import "../styles/main.scss";
-    small {
-      padding-bottom: 0;
-      color: $alpha_grey;
-    }
-  .playing {
-    color: $secondary;
-    display: flex;
-  }
-  div {
-    display: flex;
-    justify-content: center;
-  }
+  // @import "../styles/main.scss";
+  //   small {
+  //     padding-bottom: 0;
+  //     color: $alpha_grey;
+  //   }
+  // .playing {
+  //   color: $secondary;
+  //   display: flex;
+  // }
+  // div {
+  //   display: flex;
+  //   justify-content: center;
+  // }
 </style>
 
 <div class:playing={!paused}>

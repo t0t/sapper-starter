@@ -12,14 +12,14 @@
   });
 </script>
 
-<style>
+<!-- <style>
   .photos {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-gap: 8px;
   }
-</style>
+</style> -->
 
 <h2 class="col-tab-10">Photo album</h2>
 

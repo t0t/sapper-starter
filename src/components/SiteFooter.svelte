@@ -2,7 +2,7 @@
   import AudioPlayer from "../components/AudioPlayer.svelte";
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "./styles/main.scss";
   footer {
     padding-top: $h4;
@@ -52,7 +52,7 @@
       }
     }
   }
-</style>
+</style> -->
 
 <footer class="Footer">
   <div class="grid">

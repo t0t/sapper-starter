@@ -8,7 +8,7 @@
   registerTab(tab);
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../../styles/main.scss";
   button {
 	  transition: color .3s linear;
@@ -16,7 +16,7 @@
       color: $grey;
 	}	
   }
-</style>
+</style> -->
 
 <button class:selected={$selectedTab === tab} on:click={() => selectTab(tab)}>
   <slot />

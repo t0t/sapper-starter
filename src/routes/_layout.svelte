@@ -7,7 +7,7 @@
   export let segment;
 </script>
 
-<style lang="scss" global>
+<!-- <style lang="scss" global>
   @import "./styles/main.scss";
   .active {
     position: fixed;
@@ -23,7 +23,7 @@
     height: 70px;
     background-color: $light_grey;
   }
-</style>
+</style> -->
 
 <svelte:window bind:scrollY={y} />
 <header class:active={y > 100}>

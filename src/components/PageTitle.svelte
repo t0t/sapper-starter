@@ -2,7 +2,7 @@
   let y = 0;
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../styles/main.scss";
   .PageTitleContainer {
     display: flex;
@@ -19,7 +19,7 @@
     @include media(s1) {
     }
   }
-</style>
+</style> -->
 
 <svelte:window bind:scrollY={y} />
 

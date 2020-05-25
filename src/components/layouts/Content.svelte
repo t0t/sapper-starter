@@ -1,6 +1,6 @@
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../../styles/main.scss";
-</style>
+</style> -->
 
 <article class="grid">
   <slot />

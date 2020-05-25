@@ -2,7 +2,7 @@
   export let sitetitle;
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../styles/main.scss";
   .SiteBrand {
     padding-left: $h2;
@@ -14,7 +14,7 @@
     min-width: 30px;
     max-width: 20%;
   }
-</style>
+</style> -->
 
 <div class="SiteBrand">
   <a href="." alt="Main page">

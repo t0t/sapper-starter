@@ -2,12 +2,12 @@
   export let cardtitle;
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../../styles/main.scss";
   .Card {
     margin: $h0;
   }
-</style>
+</style> -->
 
 <div class="Card">
   <slot name="title">

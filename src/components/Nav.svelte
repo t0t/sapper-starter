@@ -5,7 +5,7 @@
   let x = 0;
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../../styles/main.scss";
   .SiteNav ul {
     width: 100%;
@@ -40,12 +40,12 @@
       cursor: pointer;
     }
   }
-</style>
+</style> -->
 
 <svelte:window bind:innerWidth={x} />
 
 {#if showMenu}
-  <a class="toggle-button" on:click={toggleMenu} alt="Menu button">🍔</a>
+  <button class="toggle-button" on:click={toggleMenu} alt="Menu button">🍔</button>
 {:else}
   <nav class="SiteNav">
     <ul>

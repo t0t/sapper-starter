@@ -3,7 +3,7 @@
   export let products = data.products;
 </script>
 
-<style lang="scss">
+<!-- <style lang="scss">
   @import "../../styles/main.scss";
   aside {
     display: flex;
@@ -15,7 +15,7 @@
     height: auto;
     border-radius: 50%;
   }
-</style>
+</style> -->
 
 <aside>
   {#each products as product}

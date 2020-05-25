@@ -9,7 +9,7 @@
   section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: $h2;
+    // grid-gap: $h2;
   }
 </style>
 

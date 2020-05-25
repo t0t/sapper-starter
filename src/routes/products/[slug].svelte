@@ -1,14 +1,12 @@
 <script context="module">
   export async function preload({ params, query }) {
-    // the `slug` parameter is available because
-    // this file is called [slug].svelte
     const res = await this.fetch(`products/${params.slug}.json`);
-    const data = await res.json();
+    const products = await res.json();
 
     if (res.status === 200) {
-      return { product: data };
+      return { product: products };
     } else {
-      this.error(res.status, data.message);
+      this.error(res.status, products.message);
     }
   }
 </script>
@@ -27,8 +25,6 @@
 </script>
 
 <style>
-  .subthumbs {
-  }
   .subthumbs img {
     padding: 20px;
     width: 150px;
@@ -54,7 +50,7 @@
       <div class="grid subthumbs">
         {#each [product.subthumb[i].img] as src, i (src)}
           <img transition:fade {src} alt="Imagen de detalle" />
-		<button on:click={next}>Next Detail -></button>
+          <button on:click={next}>Next Detail -></button>
         {/each}
       </div>
     </div>

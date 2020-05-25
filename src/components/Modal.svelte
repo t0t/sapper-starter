@@ -51,7 +51,7 @@
 	<button autofocus on:click={close}>close modal</button>
 </div>
 
-<style>
+<!-- <style>
 	.modal-background {
 		position: fixed;
 		top: 0;
@@ -79,4 +79,4 @@
 	button {
 		display: block;
 	}
-</style>
+</style> -->
